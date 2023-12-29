@@ -1,0 +1,11 @@
+numpy
+pandas
+Flask
+scikit-learn
+seaborn
+plotly
+haversine
+folium
+streamlit
+-e .
+
