@@ -25,7 +25,7 @@ class DataIngestion:
         logging.info('Data Ingestion methods Starts')
         try:
             # Read the raw file
-            df=pd.read_csv(os.path.join('notebooks\data','Zomatotimetaken.csv'))
+            df=pd.read_csv(os.path.join('notebooks','data','Zomatotimetaken.csv'))
             logging.info('Dataset read as pandas Dataframe')
 
             logging.info("Process started of converting Longititude and Latitude into displacement of source and destination")
