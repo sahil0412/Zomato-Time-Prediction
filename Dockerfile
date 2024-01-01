@@ -4,5 +4,5 @@ COPY . /app
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 RUN python src/pipeline/training_pipeline.py
-EXPOSE 8501
+EXPOSE 8080
 CMD python app.py
