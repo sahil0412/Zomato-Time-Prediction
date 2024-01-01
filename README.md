@@ -20,3 +20,4 @@ virtualenv venv
 ```
 pip install -r requirements.txt
 ```
+15th April Live Class Data cleaning and EDA(deployment)
